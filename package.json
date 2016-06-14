@@ -1,0 +1,34 @@
+{
+  "name": "pug-skeleton",
+  "version": "0.0.0",
+  "description": "Skeleton of the pug",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seleckis/pug-skeleton.git"
+  },
+  "keywords": [
+    "pug",
+    "skeleton"
+  ],
+  "author": "Nikita Seleckis <nikita@seleckis.lv> (http://seleckis.lv/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seleckis/pug-skeleton/issues"
+  },
+  "homepage": "https://github.com/seleckis/pug-skeleton#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-data": "^1.2.1",
+    "gulp-dest": "^0.2.3",
+    "gulp-merge-json": "^0.5.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.0.3",
+    "gulp-watch": "^4.3.6",
+    "pug": "^2.0.0-beta3"
+  }
+}

@@ -1,0 +1,30 @@
+{
+	"listUsers": {
+		"mod": "users",
+		"items": [
+			{
+				"text": "Unnamed Character"
+			},
+			{
+				"href": "http://starwars.wikia.com/wiki/Luke_Skywalker",
+				"text": "Luke Skywalker",
+				"mod": "starwars"
+			},
+			{
+				"href": "http://www.starwars.com/databank/darth-vader",
+				"text": "Darth Vader",
+				"mod": "starwars"
+			},
+			{
+				"href": "http://harrypotter.wikia.com/wiki/Harry_Potter",
+				"text": "Harry Potter",
+				"mod": "hp"
+			},
+			{
+				"href": "http://harrypotter.wikia.com/wiki/Hermione_Granger",
+				"text": "Hermione Granger",
+				"mod": "hp"
+			}
+		]
+	}
+}

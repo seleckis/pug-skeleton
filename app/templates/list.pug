@@ -1,0 +1,13 @@
+block data
+- var listMod = list.mod ? "--" + list.mod : ""
+ul(class='list'+listMod)
+	each item, key in list.items
+		- var itemMod = item.mod ? "--" + item.mod : ""
+		li(class='list'+listMod+'__item'+itemMod)
+			- if (typeof item === "object")
+				if item.href
+					a(href=item.href class='list'+listMod+'__link')= item.text
+				else
+					= item.text
+			- else
+				= item
